@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Home Guest House - Premium Event Space & Pool Venue</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#2d4a3d',secondary:'#8fbc8f'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before {
+content: "\f3c2";
+}
+body {
+font-family: 'Inter', sans-serif;
+}
+.page-content {
+display: none;
+}
+.page-content.active {
+display: block;
+}
+.glass-effect {
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.9);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.gradient-bg {
+background: linear-gradient(135deg, #2d4a3d 0%, #4a7c59 100%);
+}
+.floating-card {
+animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+0%, 100% { transform: translateY(0px); }
+50% { transform: translateY(-10px); }
+}
+.parallax-bg {
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Header -->
+<header class="fixed top-0 left-0 right-0 z-50 glass-effect shadow-xl transition-all duration-300">
+<div class="container mx-auto px-6 py-4">
+<div class="flex items-center justify-between">
+<div class="font-['Pacifico'] text-2xl text-primary">One Home Guest House</div>
+<nav class="hidden md:flex space-x-8">
+<a href="#home" data-page="home" class="nav-link text-primary border-b-2 border-primary hover:text-primary transition-all duration-300 font-medium relative">Home</a>
+<a href="#about" data-page="about" class="nav-link text-gray-700 hover:text-primary transition-all duration-300 font-medium relative">About Us</a>
+<a href="#facilities" data-page="facilities" class="nav-link text-gray-700 hover:text-primary transition-all duration-300 font-medium relative">Facilities</a>
+<a href="#pricing" data-page="pricing" class="nav-link text-gray-700 hover:text-primary transition-all duration-300 font-medium relative">Pricing</a>
+<a href="#gallery" data-page="gallery" class="nav-link text-gray-700 hover:text-primary transition-all duration-300 font-medium relative">Gallery</a>
+<a href="#contact" data-page="contact" class="nav-link text-gray-700 hover:text-primary transition-all duration-300 font-medium relative">Contact</a>
+</nav>
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap hidden md:block">
+Book Now
+</button>
+<button class="md:hidden w-8 h-8 flex items-center justify-center text-primary">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Home Page -->
+<div id="home" class="page-content active">
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center parallax-bg" style="background-image: url('https://readdy.ai/api/search-image?query=Luxurious%20outdoor%20pool%20area%20with%20crystal%20clear%20blue%20water%2C%20modern%20outdoor%20furniture%2C%20white%20umbrellas%2C%20tropical%20palm%20trees%2C%20comfortable%20seating%20areas%2C%20elegant%20patio%20design%2C%20sunny%20day%20with%20blue%20sky%2C%20resort-style%20ambiance%2C%20clean%20contemporary%20architecture%2C%20lush%20green%20landscaping%2C%20inviting%20atmosphere%20perfect%20for%20events%20and%20celebrations&width=1920&height=1080&seq=hero001&orientation=landscape');">
+<div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
+<div class="container mx-auto px-6 relative z-10 pt-20">
+<div class="max-w-4xl">
+<div class="mb-6">
+<span class="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
+✨ Premium Event Venue
+</span>
+</div>
+<h1 class="text-6xl md:text-7xl font-bold text-white mb-8 leading-tight">
+BOOK OUR EVENTS<br>
+<span class="text-secondary bg-gradient-to-r from-secondary to-green-300 bg-clip-text text-transparent">POOL SIDE SPACE</span>
+</h1>
+<p class="text-xl text-white/90 mb-10 leading-relaxed max-w-2xl">
+Experience luxury at its finest with our pristine pool area, elegant outdoor seating, climate control heaters, mobile braai station, Instagram-worthy swing photo booth, and countless premium amenities.
+</p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button data-page="pricing" class="nav-btn bg-primary hover:bg-primary/90 text-white px-10 py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+Book Your Event
+</button>
+<button data-page="gallery" class="nav-btn border-2 border-white text-white hover:bg-white hover:text-primary px-10 py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap backdrop-blur-sm">
+View Gallery
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Features Overview -->
+<section class="py-24 bg-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full -mr-48 -mt-48"></div>
+<div class="container mx-auto px-6 relative">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-gray-900 mb-6">Why Choose Our Venue?</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+We provide everything you need for an unforgettable celebration in the heart of Tshwane
+</p>
+</div>
+<div class="grid lg:grid-cols-3 gap-12">
+<div class="floating-card text-center group">
+<div class="w-20 h-20 bg-gradient-to-r from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+<i class="ri-water-flash-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Premium Pool Area</h3>
+<p class="text-gray-600 leading-relaxed">Crystal clear water, modern design, and perfect temperature control for year-round enjoyment</p>
+</div>
+<div class="floating-card text-center group" style="animation-delay: 2s;">
+<div class="w-20 h-20 bg-gradient-to-r from-secondary to-green-400 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+<i class="ri-camera-2-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Instagram Ready</h3>
+<p class="text-gray-600 leading-relaxed">Stunning backdrops, professional swing photo booth, and picture-perfect settings for memorable moments</p>
+</div>
+<div class="floating-card text-center group" style="animation-delay: 4s;">
+<div class="w-20 h-20 bg-gradient-to-r from-green-500 to-primary rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+<i class="ri-shield-check-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Full Service Security</h3>
+<p class="text-gray-600 leading-relaxed">24/7 surveillance, secure parking, and complete peace of mind for you and your guests</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="py-20 gradient-bg text-white">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-8 text-center">
+<div>
+<div class="text-4xl font-bold mb-2">500+</div>
+<div class="text-white/80">Events Hosted</div>
+</div>
+<div>
+<div class="text-4xl font-bold mb-2">100%</div>
+<div class="text-white/80">Satisfaction Rate</div>
+</div>
+<div>
+<div class="text-4xl font-bold mb-2">24.1K</div>
+<div class="text-white/80">Social Media Followers</div>
+</div>
+<div>
+<div class="text-4xl font-bold mb-2">5★</div>
+<div class="text-white/80">Average Rating</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- About Page -->
+<div id="about" class="page-content">
+<section class="pt-32 pb-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto text-center mb-16">
+<h1 class="text-6xl font-bold text-gray-900 mb-8">About One Home Guest House</h1>
+<p class="text-2xl text-gray-600 leading-relaxed">
+Discover the story behind Tshwane's most sought-after event venue
+</p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-4xl font-bold text-gray-900 mb-8">Our Story</h2>
+<div class="space-y-6 text-lg text-gray-700 leading-relaxed">
+<p>
+Founded with a vision to create extraordinary experiences, One Home Guest House has become Tshwane's premier destination for luxury poolside events. Our journey began with a simple belief: every celebration deserves a spectacular setting.
+</p>
+<p>
+Located in the heart of the City of Tshwane, our venue combines modern elegance with warm hospitality. From intimate gatherings to grand celebrations, we've hosted over 500 successful events, each one tailored to perfection.
+</p>
+<p>
+Our commitment to excellence extends beyond our facilities. We believe in creating memories that last a lifetime, supported by our dedicated team and state-of-the-art amenities.
+</p>
+</div>
+<div class="grid grid-cols-2 gap-6 mt-10">
+<div class="bg-white p-6 rounded-xl shadow-lg text-center">
+<div class="text-3xl font-bold text-primary mb-2">2019</div>
+<div class="text-gray-600">Established</div>
+</div>
+<div class="bg-white p-6 rounded-xl shadow-lg text-center">
+<div class="text-3xl font-bold text-primary mb-2">500+</div>
+<div class="text-gray-600">Events Hosted</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Elegant%20outdoor%20venue%20establishment%2C%20modern%20architecture%2C%20beautiful%20landscaping%2C%20professional%20venue%20photography%2C%20luxury%20guest%20house%20exterior%2C%20welcoming%20entrance%2C%20tropical%20gardens%2C%20contemporary%20design%2C%20upscale%20hospitality%20setting&width=700&height=500&seq=about001&orientation=landscape"
+alt="About Our Venue" class="w-full h-96 object-cover object-top rounded-2xl shadow-2xl">
+<div class="absolute -bottom-8 -right-8 w-32 h-32 bg-primary/10 rounded-full"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-gray-900 text-center mb-16">What Makes Us Special</h2>
+<div class="grid lg:grid-cols-3 gap-12">
+<div class="text-center">
+<div class="w-24 h-24 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-8">
+<i class="ri-award-line text-4xl text-primary"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Award-Winning Service</h3>
+<p class="text-gray-600 leading-relaxed">
+Recognized for excellence in hospitality and event management across South Africa
+</p>
+</div>
+<div class="text-center">
+<div class="w-24 h-24 bg-secondary/20 rounded-2xl flex items-center justify-center mx-auto mb-8">
+<i class="ri-leaf-line text-4xl text-primary"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Eco-Friendly Practices</h3>
+<p class="text-gray-600 leading-relaxed">
+Committed to sustainable practices while maintaining luxury standards
+</p>
+</div>
+<div class="text-center">
+<div class="w-24 h-24 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-8">
+<i class="ri-heart-line text-4xl text-primary"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Personal Touch</h3>
+<p class="text-gray-600 leading-relaxed">
+Every event is personally managed to ensure your vision becomes reality
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 gradient-bg text-white">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-4xl font-bold mb-8">Ready to Create Your Perfect Event?</h2>
+<p class="text-xl mb-10 max-w-2xl mx-auto">
+Let us help you transform your celebration into an unforgettable experience
+</p>
+<button data-page="contact" class="nav-btn bg-white text-primary px-10 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-all whitespace-nowrap">
+Get Started Today
+</button>
+</div>
+</section>
+</div>
+<!-- Facilities Page -->
+<div id="facilities" class="page-content">
+<section class="pt-32 pb-20 bg-white relative overflow-hidden">
+<div class="absolute top-0 left-0 w-96 h-96 bg-secondary/10 rounded-full -ml-48 -mt-48"></div>
+<div class="container mx-auto px-6 relative">
+<div class="max-w-4xl mx-auto text-center mb-16">
+<h1 class="text-6xl font-bold text-gray-900 mb-8">World-Class Facilities</h1>
+<p class="text-2xl text-gray-600 leading-relaxed">
+Every detail designed for your perfect celebration
+</p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 items-center mb-20">
+<div>
+<h2 class="text-4xl font-bold text-gray-900 mb-8">Premium Pool Area</h2>
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+<i class="ri-water-flash-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Crystal Clear Water</h4>
+<p class="text-gray-600">Professionally maintained pool with advanced filtration system</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+<i class="ri-temp-hot-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Temperature Control</h4>
+<p class="text-gray-600">Heated pool available for year-round comfort</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+<i class="ri-flashlight-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">LED Lighting</h4>
+<p class="text-gray-600">Underwater and ambient lighting for evening events</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<img src="https://readdy.ai/api/search-image?query=Stunning%20swimming%20pool%20with%20crystal%20clear%20blue%20water%2C%20modern%20pool%20design%2C%20underwater%20LED%20lighting%2C%20elegant%20pool%20deck%2C%20contemporary%20architecture%2C%20luxury%20resort%20style%2C%20beautiful%20landscaping%2C%20perfect%20for%20events&width=700&height=500&seq=facilities001&orientation=landscape"
+alt="Premium Pool Area" class="w-full h-96 object-cover object-top rounded-2xl shadow-2xl">
+</div>
+</div>
+<div class="grid lg:grid-cols-2 gap-16 items-center mb-20">
+<div class="order-2 lg:order-1">
+<img src="https://readdy.ai/api/search-image?query=Beautiful%20outdoor%20seating%20area%20with%20comfortable%20modern%20furniture%2C%20elegant%20patio%20sets%2C%20umbrellas%2C%20covered%20dining%20spaces%2C%20tropical%20landscaping%2C%20luxury%20outdoor%20living%2C%20perfect%20for%20entertaining&width=700&height=500&seq=facilities002&orientation=landscape"
+alt="Seating Areas" class="w-full h-96 object-cover object-top rounded-2xl shadow-2xl">
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-4xl font-bold text-gray-900 mb-8">Elegant Seating Areas</h2>
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+<i class="ri-armchair-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Premium Furniture</h4>
+<p class="text-gray-600">High-quality outdoor furniture for up to 100 guests</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+<i class="ri-umbrella-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Weather Protection</h4>
+<p class="text-gray-600">Covered areas and umbrellas for comfort in any weather</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+<i class="ri-layout-grid-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Flexible Layout</h4>
+<p class="text-gray-600">Customizable seating arrangements for any event type</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<h2 class="text-4xl font-bold text-gray-900 text-center mb-16">Complete Amenities</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-xl border border-gray-100 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="w-20 h-20 bg-gradient-to-r from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-camera-2-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-semibold text-gray-900 mb-4">Swing Photo Booth</h3>
+<p class="text-gray-600 leading-relaxed">Instagram-worthy swing setup with professional backdrop for stunning photos</p>
+</div>
+<div class="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-xl border border-gray-100 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="w-20 h-20 bg-gradient-to-r from-secondary to-green-400 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-fire-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-semibold text-gray-900 mb-4">Mobile Braai Station</h3>
+<p class="text-gray-600 leading-relaxed">Professional-grade movable braai area with all necessary equipment included</p>
+</div>
+<div class="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-xl border border-gray-100 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="w-20 h-20 bg-gradient-to-r from-green-500 to-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-car-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-semibold text-gray-900 mb-4">Secure Parking</h3>
+<p class="text-gray-600 leading-relaxed">Ample, well-lit parking spaces with 24/7 security monitoring</p>
+</div>
+<div class="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-xl border border-gray-100 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="w-20 h-20 bg-gradient-to-r from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-restaurant-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-semibold text-gray-900 mb-4">Full Kitchen Access</h3>
+<p class="text-gray-600 leading-relaxed">Modern kitchen facilities with professional equipment for catering needs</p>
+</div>
+<div class="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-xl border border-gray-100 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="w-20 h-20 bg-gradient-to-r from-secondary to-green-400 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-home-heart-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-semibold text-gray-900 mb-4">Palm Room</h3>
+<p class="text-gray-600 leading-relaxed">Luxury accommodation for overnight guests with premium amenities</p>
+</div>
+<div class="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-xl border border-gray-100 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="w-20 h-20 bg-gradient-to-r from-green-500 to-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-shield-check-line text-3xl text-white"></i>
+</div>
+<h3 class="text-2xl font-semibold text-gray-900 mb-4">24/7 Security</h3>
+<p class="text-gray-600 leading-relaxed">Professional security team and surveillance system for complete peace of mind</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Pricing Page -->
+<div id="pricing" class="page-content">
+<section class="pt-32 pb-20 bg-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full -mr-48 -mt-48"></div>
+<div class="container mx-auto px-6 relative">
+<div class="max-w-4xl mx-auto text-center mb-16">
+<h1 class="text-6xl font-bold text-gray-900 mb-8">Event Packages</h1>
+<p class="text-2xl text-gray-600 leading-relaxed">
+Choose the perfect package for your unforgettable celebration
+</p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
+<!-- Small Events -->
+<div class="bg-white p-10 rounded-2xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="text-center mb-8">
+<div class="w-20 h-20 bg-gradient-to-r from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-group-line text-3xl text-white"></i>
+</div>
+<h3 class="text-3xl font-bold text-gray-900 mb-2">Small Events</h3>
+<p class="text-gray-600 mb-6">Perfect for intimate gatherings<br>0-15 people</p>
+<div class="mb-6">
+<span class="text-5xl font-bold text-primary">R1875.00</span>
+<p class="text-sm text-gray-600 mt-2">Deposit Required</p>
+</div>
+<div class="text-2xl font-semibold text-gray-900 mb-6">
+Total: R1000.00
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-opacity-90 text-white py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap shadow-lg">
+Book Small Event
+</button>
+</div>
+<!-- Medium Events -->
+<div class="bg-white p-10 rounded-2xl shadow-xl border-2 border-primary hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 relative transform scale-105">
+<div class="absolute -top-6 left-1/2 transform -translate-x-1/2">
+<span class="bg-primary text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg">Most Popular</span>
+</div>
+<div class="text-center mb-8">
+<div class="w-20 h-20 bg-gradient-to-r from-secondary to-green-400 rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-team-line text-3xl text-white"></i>
+</div>
+<h3 class="text-3xl font-bold text-gray-900 mb-2">Medium Events</h3>
+<p class="text-gray-600 mb-6">Great for celebrations<br>15-50 people</p>
+<div class="mb-6">
+<span class="text-5xl font-bold text-primary">R3125.00</span>
+<p class="text-sm text-gray-600 mt-2">Deposit Required</p>
+</div>
+<div class="text-2xl font-semibold text-gray-900 mb-6">
+Total: R2500.00
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-opacity-90 text-white py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap shadow-lg">
+Book Medium Event
+</button>
+</div>
+<!-- Large Events -->
+<div class="bg-white p-10 rounded-2xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+<div class="text-center mb-8">
+<div class="w-20 h-20 bg-gradient-to-r from-green-500 to-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
+<i class="ri-community-line text-3xl text-white"></i>
+</div>
+<h3 class="text-3xl font-bold text-gray-900 mb-2">Large Events</h3>
+<p class="text-gray-600 mb-6">For grand celebrations<br>51-100 people</p>
+<div class="mb-6">
+<span class="text-5xl font-bold text-primary">R6250.00</span>
+<p class="text-sm text-gray-600 mt-2">Deposit Required</p>
+</div>
+<div class="text-2xl font-semibold text-gray-900 mb-6">
+Total: R5000.00
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-opacity-90 text-white py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap shadow-lg">
+Book Large Event
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-4xl font-bold text-gray-900 text-center mb-16">Package Details & Policies</h2>
+<div class="grid lg:grid-cols-2 gap-12">
+<div class="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg">
+<h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+<i class="ri-information-line text-primary mr-3"></i>
+Important Information
+</h3>
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-refund-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-900 mb-2">Deposit Policy</h4>
+<p class="text-gray-600">Deposit is fully refundable within 5-10 business days if cancelled before 48 hours</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-add-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-900 mb-2">Extra Guests</h4>
+<p class="text-gray-600">Additional guests beyond package limit: R100 per person</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-time-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-900 mb-2">Event Duration</h4>
+<p class="text-gray-600">Standard 6-hour package with extension options available</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg">
+<h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+<i class="ri-restaurant-line text-primary mr-3"></i>
+Food & Beverages
+</h3>
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-restaurant-2-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-900 mb-2">Catering Equipment</h4>
+<p class="text-gray-600">Plates, glasses, and cutlery rental from R500.00</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-goblet-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-900 mb-2">Alcohol Policy</h4>
+<p class="text-gray-600">Alcohol is permitted. Food available from our restaurant</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-fire-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold text-gray-900 mb-2">Braai Services</h4>
+<p class="text-gray-600">Mobile braai station included with professional setup</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 gradient-bg text-white">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-4xl font-bold mb-8">Ready to Book Your Perfect Event?</h2>
+<p class="text-xl mb-10 max-w-2xl mx-auto">
+Contact us today to check availability and secure your preferred date
+</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<button data-page="contact" class="nav-btn bg-white text-primary px-10 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-all whitespace-nowrap">
+Book Now
+</button>
+<button data-page="gallery" class="nav-btn border-2 border-white text-white hover:bg-white hover:text-primary px-10 py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap">
+View Gallery
+</button>
+</div>
+</div>
+</section>
+</div>
+
+<!-- Gallery Page -->
+<div id="gallery" class="page-content">
+<section class="pt-32 pb-20 bg-white relative overflow-hidden">
+<div class="absolute top-0 left-0 w-96 h-96 bg-secondary/10 rounded-full -ml-48 -mt-48"></div>
+<div class="container mx-auto px-6 relative">
+<div class="max-w-4xl mx-auto text-center mb-16">
+<h1 class="text-6xl font-bold text-gray-900 mb-8">Photo Gallery</h1>
+<p class="text-2xl text-gray-600 leading-relaxed">
+Experience the beauty and elegance of our venue through stunning visuals
+</p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Beautiful%20outdoor%20pool%20area%20with%20clear%20blue%20water%2C%20modern%20patio%20furniture%2C%20tropical%20landscaping%2C%20palm%20trees%2C%20elegant%20design%2C%20sunny%20day%2C%20luxury%20resort%20style%20venue%20perfect%20for%20events&width=500&height=400&seq=gallery001&orientation=landscape"
+alt="Pool Area" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Premium Pool Area</h3>
+<p class="text-white/90 text-sm">Crystal clear water with modern amenities</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Covered%20outdoor%20seating%20area%20with%20comfortable%20modern%20furniture%2C%20shaded%20patio%20space%2C%20elegant%20arrangement%2C%20tropical%20plants%2C%20warm%20lighting%20atmosphere%20perfect%20for%20dining&width=500&height=400&seq=gallery002&orientation=landscape"
+alt="Covered Seating" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Covered Seating Areas</h3>
+<p class="text-white/90 text-sm">Comfortable dining spaces with weather protection</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Swing%20photo%20booth%20setup%20in%20beautiful%20outdoor%20setting%2C%20decorative%20swing%20chair%2C%20perfect%20for%20photos%2C%20romantic%20atmosphere%2C%20elegant%20design%2C%20garden%20background%20Instagram%20worthy&width=500&height=400&seq=gallery003&orientation=landscape"
+alt="Swing Photo Booth" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Swing Photo Booth</h3>
+<p class="text-white/90 text-sm">Instagram-worthy moments captured perfectly</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Outdoor%20braai%20area%20with%20modern%20barbecue%20setup%2C%20dining%20space%2C%20comfortable%20seating%2C%20tropical%20garden%20setting%2C%20perfect%20for%20entertaining%20guests%20South%20African%20style&width=500&height=400&seq=gallery004&orientation=landscape"
+alt="Braai Area" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Mobile Braai Station</h3>
+<p class="text-white/90 text-sm">Professional-grade braai facilities</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Evening%20view%20of%20outdoor%20venue%20with%20warm%20lighting%2C%20illuminated%20pool%20area%2C%20cozy%20atmosphere%2C%20perfect%20for%20night%20events%2C%20romantic%20ambiance%20elegant%20outdoor%20party%20setting&width=500&height=400&seq=gallery005&orientation=landscape"
+alt="Evening Ambiance" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Evening Ambiance</h3>
+<p class="text-white/90 text-sm">Magical nighttime atmosphere with lighting</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Palm%20Room%20interior%20accommodation%20space%2C%20comfortable%20bedroom%2C%20modern%20amenities%2C%20clean%20design%2C%20perfect%20for%20overnight%20guests%2C%20luxury%20guest%20house%20room%20elegant%20hospitality&width=500&height=400&seq=gallery006&orientation=landscape"
+alt="Palm Room" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Palm Room</h3>
+<p class="text-white/90 text-sm">Luxury accommodation for special guests</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Secure%20parking%20area%20with%20modern%20vehicles%2C%20well-lit%20parking%20spaces%2C%20professional%20security%2C%20safe%20environment%2C%20contemporary%20design%2C%20guest%20convenience%20at%20events%20venue&width=500&height=400&seq=gallery007&orientation=landscape"
+alt="Secure Parking" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Secure Parking</h3>
+<p class="text-white/90 text-sm">Safe and convenient parking for all guests</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Modern%20kitchen%20facilities%20with%20professional%20equipment%2C%20clean%20contemporary%20design%2C%20catering%20preparation%20area%2C%20stainless%20steel%20appliances%2C%20perfect%20for%20event%20food%20service&width=500&height=400&seq=gallery008&orientation=landscape"
+alt="Kitchen Facilities" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Kitchen Facilities</h3>
+<p class="text-white/90 text-sm">Professional kitchen for catering needs</p>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 group">
+<img src="https://readdy.ai/api/search-image?query=Event%20celebration%20at%20outdoor%20venue%2C%20happy%20guests%20enjoying%20pool%20party%2C%20festive%20atmosphere%2C%20people%20socializing%2C%20beautiful%20venue%20setting%2C%20successful%20celebration%20gathering&width=500&height=400&seq=gallery009&orientation=landscape"
+alt="Event Celebration" class="w-full h-80 object-cover object-top group-hover:scale-110 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="text-white text-xl font-bold mb-2">Happy Celebrations</h3>
+<p class="text-white/90 text-sm">Creating unforgettable moments for our guests</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-4xl font-bold text-gray-900 mb-8">Ready to Create Your Own Memories?</h2>
+<p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+Book your event today and experience the magic of our venue firsthand
+</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<button data-page="pricing" class="nav-btn bg-primary hover:bg-primary/90 text-white px-10 py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap">
+View Packages
+</button>
+<button data-page="contact" class="nav-btn border-2 border-primary text-primary hover:bg-primary hover:text-white px-10 py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap">
+Contact Us
+</button>
+</div>
+</div>
+</section>
+</div>
+
+<!-- Contact Page -->
+<div id="contact" class="page-content">
+<section class="pt-32 pb-20 bg-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full -mr-48 -mt-48"></div>
+<div class="container mx-auto px-6 relative">
+<div class="max-w-4xl mx-auto text-center mb-16">
+<h1 class="text-6xl font-bold text-gray-900 mb-8">Contact Us</h1>
+<p class="text-2xl text-gray-600 leading-relaxed">
+Get in touch to book your perfect event or ask any questions
+</p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16">
+<div>
+<h2 class="text-4xl font-bold text-gray-900 mb-8">Let's Plan Your Perfect Event</h2>
+<p class="text-lg text-gray-700 mb-10 leading-relaxed">
+Ready to book your perfect event? Contact us today to check availability and discuss your requirements. We're here to make your celebration unforgettable with our premium poolside venue and exceptional service.
+</p>
+<div class="space-y-8">
+<div class="flex items-start space-x-6">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+<i class="ri-map-pin-line text-2xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Our Location</h4>
+<p class="text-gray-600 leading-relaxed">Located in the beautiful City of Tshwane, South Africa. Easily accessible with ample parking facilities.</p>
+</div>
+</div>
+<div class="flex items-start space-x-6">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+<i class="ri-phone-line text-2xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Call Us</h4>
+<p class="text-gray-600 mb-2">+27 12 345 6789</p>
+<p class="text-sm text-gray-500">Available 9 AM - 6 PM, Monday to Sunday</p>
+</div>
+</div>
+<div class="flex items-start space-x-6">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+<i class="ri-mail-line text-2xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Email Us</h4>
+<p class="text-gray-600 mb-2">bookings@onehomeguesthouse.co.za</p>
+<p class="text-sm text-gray-500">We respond within 2 hours</p>
+</div>
+</div>
+<div class="flex items-start space-x-6">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+<i class="ri-heart-line text-2xl text-primary"></i>
+</div>
+<div>
+<h4 class="text-xl font-semibold text-gray-900 mb-2">Follow Us</h4>
+<p class="text-gray-600 mb-4">Stay connected for updates and inspiration</p>
+<div class="flex space-x-4">
+<div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors cursor-pointer">
+<i class="ri-facebook-fill text-white"></i>
+</div>
+<div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors cursor-pointer">
+<i class="ri-instagram-fill text-white"></i>
+</div>
+<div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors cursor-pointer">
+<i class="ri-twitter-fill text-white"></i>
+</div>
+</div>
+<p class="text-sm text-gray-500 mt-2">24.1K followers love our venue</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-10 rounded-2xl shadow-xl">
+<h3 class="text-3xl font-bold text-gray-900 mb-8">Send us a Message</h3>
+<form id="contact-form" class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Full Name *</label>
+<input type="text" name="fullName" required class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all">
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Email Address *</label>
+<input type="email" name="email" required class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all">
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Phone Number *</label>
+<input type="tel" name="phone" required class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all">
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Event Date</label>
+<input type="date" name="eventDate" class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all">
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Number of Guests</label>
+<input type="number" name="guestCount" min="1" max="100" class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all">
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Event Type</label>
+<select name="eventType" class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all">
+<option value="">Select Event Type</option>
+<option value="birthday">Birthday Party</option>
+<option value="wedding">Wedding</option>
+<option value="corporate">Corporate Event</option>
+<option value="anniversary">Anniversary</option>
+<option value="other">Other</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Message</label>
+<textarea name="message" rows="5" maxlength="500" class="w-full px-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent text-sm transition-all resize-none" placeholder="Tell us about your event requirements..."></textarea>
+<div class="text-right text-xs text-gray-500 mt-1">
+<span id="char-count">0</span>/500 characters
+</div>
+</div>
+<button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white py-4 !rounded-button text-lg font-semibold transition-all whitespace-nowrap shadow-lg hover:shadow-xl">
+Send Message
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="bg-gradient-to-r from-primary to-secondary rounded-2xl p-12 text-white text-center">
+<h2 class="text-4xl font-bold mb-6">Visit Our Venue</h2>
+<p class="text-xl mb-8 max-w-2xl mx-auto">
+Located in the heart of Tshwane with easy access and beautiful surroundings
+</p>
+<div class="w-full h-96 bg-center bg-cover rounded-xl overflow-hidden" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png');">
+<div class="w-full h-full bg-black/20 flex items-center justify-center">
+<div class="text-center">
+<i class="ri-map-pin-line text-6xl text-white mb-4"></i>
+<h3 class="text-2xl font-bold">One Home Guest House</h3>
+<p class="text-white/90">City of Tshwane, South Africa</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Footer -->
+<footer class="bg-primary text-white py-12">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<div class="font-['Pacifico'] text-2xl text-white mb-4">One Home Guest House</div>
+<p class="text-gray-300 mb-4">
+Your premier destination for unforgettable poolside events in the heart of Tshwane.
+</p>
+<div class="flex space-x-4">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-facebook-fill text-xl hover:text-secondary cursor-pointer transition-colors"></i>
+</div>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-instagram-fill text-xl hover:text-secondary cursor-pointer transition-colors"></i>
+</div>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-twitter-fill text-xl hover:text-secondary cursor-pointer transition-colors"></i>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+<ul class="space-y-2">
+<li><a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+<li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+<li><a href="#facilities" class="text-gray-300 hover:text-white transition-colors">Facilities</a></li>
+<li><a href="#pricing" class="text-gray-300 hover:text-white transition-colors">Pricing</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Services</h4>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Event Hosting</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Pool Parties</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Corporate Events</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Private Functions</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+<div class="space-y-2 text-gray-300">
+<p>City of Tshwane, South Africa</p>
+<p>+27 12 345 6789</p>
+<p>bookings@onehomeguesthouse.co.za</p>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-600 mt-8 pt-8 text-center">
+<p class="text-gray-300">
+© 2025 One Home Guest House. All rights reserved.
+</p>
+</div>
+</div>
+</footer>
+<script id="navigation">
+document.addEventListener('DOMContentLoaded', function() {
+const navLinks = document.querySelectorAll('.nav-link, .nav-btn');
+const pages = document.querySelectorAll('.page-content');
+function showPage(pageId) {
+pages.forEach(page => {
+page.classList.remove('active');
+});
+const targetPage = document.getElementById(pageId);
+if (targetPage) {
+targetPage.classList.add('active');
+window.scrollTo({
+top: 0,
+behavior: 'smooth'
+});
+}
+}
+function setActiveNavLink(pageId) {
+navLinks.forEach(link => {
+const linkPage = link.getAttribute('data-page');
+if (linkPage === pageId) {
+link.classList.remove('text-gray-700');
+link.classList.add('text-primary', 'border-b-2', 'border-primary');
+} else {
+link.classList.remove('text-primary', 'border-b-2', 'border-primary');
+link.classList.add('text-gray-700');
+}
+});
+}
+navLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetPage = this.getAttribute('data-page');
+if (targetPage) {
+showPage(targetPage);
+setActiveNavLink(targetPage);
+}
+});
+});
+setActiveNavLink('home');
+});
+</script>
+<script id="mobile-menu">
+document.addEventListener('DOMContentLoaded', function() {
+const mobileMenuButton = document.querySelector('header button');
+const navigation = document.querySelector('nav');
+mobileMenuButton.addEventListener('click', function() {
+navigation.classList.toggle('hidden');
+navigation.classList.toggle('flex');
+navigation.classList.toggle('flex-col');
+navigation.classList.toggle('absolute');
+navigation.classList.toggle('top-full');
+navigation.classList.toggle('left-0');
+navigation.classList.toggle('w-full');
+navigation.classList.toggle('bg-primary');
+navigation.classList.toggle('p-6');
+navigation.classList.toggle('space-x-0');
+navigation.classList.toggle('space-y-4');
+});
+});
+</script>
+<script id="form-handling">
+document.addEventListener('DOMContentLoaded', function() {
+const contactForm = document.querySelector('form');
+contactForm.addEventListener('submit', function(e) {
+e.preventDefault();
+const formData = new FormData(this);
+const formObject = {};
+formData.forEach((value, key) => {
+formObject[key] = value;
+});
+alert('Thank you for your message! We will get back to you soon.');
+this.reset();
+});
+});
+</script>
+</body>
+</html>
